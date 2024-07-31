@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Question 01 -->
+
+  <a href="#" onclick="alert('Hello World!')">Click Me</a>
+
+  <br>
+  <br>
+
+  <!-- Question 02 -->
+
+  <img src="images/Artboard1_grande_4c8657e3-3037-4b94-a95d-27299e883d2f.webp" alt="Mobile 1" onclick="showMessage()">
+  <img src="images/redmi-note-12-5g-pro-plus-db-gadgets360-800x600-1673019783.webp" alt="Mobile 2"
+    onclick="showMessage()">
+  <img src="images/vivo-mobile-phone.jpg" alt="Mobile 3" onclick="showMessage()">
+  <img src="images/xiaomi-14-03.webp" alt="Mobile 4" onclick="showMessage()">
+
+
+  <!-- Question 03 -->
+
+  <h1>Students Records</h1>
+
+  <table id="studentTable">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Class</th>
+        <th>Section</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>John Doe</td>
+        <td>10</td>
+        <td>A</td>
+        <td><button onclick="deleteRow(this)">Delete</button></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Jane Smith</td>
+        <td>10</td>
+        <td>A</td>
+        <td><button onclick="deleteRow(this)">Delete</button></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Michael Johns</td>
+        <td>10</td>
+        <td>A</td>
+        <td><button onclick="deleteRow(this)">Delete</button></td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Emily Davis</td>
+        <td>10</td>
+        <td>A</td>
+        <td><button onclick="deleteRow(this)">Delete</button></td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>Chris Brown</td>
+        <td>10</td>
+        <td>A</td>
+        <td><button onclick="deleteRow(this)">Delete</button></td>
+      </tr>
+    </tbody>
+
+  </table>
+
+  <br>
+  <br>
+
+  <!-- Question 04 -->
+
+  <img class="images1" onmouseout="src='images/image_processing20210909-8821-1xq16gi.gif'"
+    onmouseover="src='images/simple Car Animation.gif'" src="images/image_processing20210909-8821-1xq16gi.gif" alt="">
+
+
+  <!-- Question 05 -->
+
+  <h1>Counter</h1>
+
+  <button class="btn" onclick="decrease()"><img class="btn-img" src="images/icons8-arrow-pointing-left-96.png"
+      alt=""></button>
+  <span id="counter">
+    0
+  </span>
+  <button class="btn" onclick="increase()"><img class="btn-img" src="images/icons8-arrow-96.png" alt=""></button>
+
+
+  <script src="app.js"></script>
+</body>
+
+</html>
